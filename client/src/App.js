@@ -10,7 +10,7 @@ export default function App() {
     const [token, setToken] = useState('')
     const [session, setSession] = useState('')
     
-    // get all data
+    // get all data from db
     const list = async () => {
         try {
             const response = await api.fetchAll()
